@@ -8,6 +8,48 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+<!-- 在 head 中加入 script 引用 -->
+<script src="js/script.js" defer></script>
+
+<section class="portfolio-section">
+  <div class="container">
+    <h2>作品集</h2>
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-category="all">全部</button>
+      <button class="filter-btn" data-category="comic">漫畫</button>
+      <button class="filter-btn" data-category="game">遊戲</button>
+      <button class="filter-btn" data-category="edu">教學工具</button>
+      <button class="filter-btn" data-category="web">網站設計</button>
+      <button class="filter-btn" data-category="novel">小說</button>
+      <button class="filter-btn" data-category="map">製圖</button>
+      <button class="filter-btn" data-category="other">其他</button>
+    </div>
+
+    <div class="portfolio-grid">
+      <div class="portfolio-card" data-category="comic">
+        <img src="images/comic.jpg" alt="漫畫作品" />
+        <h3>漫畫</h3>
+        <p>原創短篇、角色設計。</p>
+      </div>
+
+      <div class="portfolio-card" data-category="game">
+        <img src="images/game.jpg" alt="遊戲作品" />
+        <h3>遊戲</h3>
+        <p>小型互動遊戲。</p>
+      </div>
+
+      <div class="portfolio-card" data-category="novel">
+        <img src="images/novel.jpg" alt="小說創作" />
+        <h3>小說</h3>
+        <p>原創小說、角色故事。</p>
+      </div>
+
+      <!-- 其他分類照樣加上 data-category -->
+    </div>
+  </div>
+</section>
+
+
 </head>
 <body>
   <header>
