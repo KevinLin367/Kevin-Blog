@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>聯絡方式 | 我的個人網站</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">My Portfolio</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">首頁</a></li>
+          <li><a href="about.html">自我介紹</a></li>
+          <li><a href="portfolio.html">作品集</a></li>
+          <li><a href="blog.html">網誌</a></li>
+          <li><a href="contact.html" class="active">聯絡方式</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="contact-section">
+      <div class="container">
+        <h2>聯絡我</h2>
+        <p>歡迎你透過以下方式聯絡我，或留下訊息我會儘快回覆！</p>
+
+        <form action="https://formspree.io/f/YOUR-FORM-ID" method="POST" class="contact-form">
+          <label for="name">姓名</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="_replyto" required />
+
+          <label for="message">訊息</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit" class="btn">送出</button>
+        </form>
+
+        <div class="contact-alt">
+          <p>或直接寄信到：<a href="mailto:youremail@example.com">youremail@example.com</a></p>
+          <p>社群連結：
+            <a href="https://instagram.com/yourid" target="_blank">Instagram</a> |
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 XXX | All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
 
